@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define N 8
-int board[100][100];
+int Board[100][100];
 
 int is_attack(int i,int j) {
     int k,l;
