@@ -25,7 +25,7 @@ bool solveNQUtil(int board[N][N], int col)
                           rd[i + col] = cl[i] = 1; 
             if (solveNQUtil(board, col + 1)) 
                 return true; 
-            board[i][col] = 0; // BACKTRACK 
+            board[i][col] = 0;
             ld[i - col + N - 1] = 
                          rd[i + col] = cl[i] = 0; 
         } 
